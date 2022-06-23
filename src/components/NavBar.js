@@ -1,17 +1,17 @@
-import logo from "../assets/logo.png";
-import styles from "./Navbar.css";
+import loguito from "../assets/loguito.jpg";
+import styles from "./NavBar.css";
 
-export default function Navbar(){
+
+
+
+export default function NavBar(){
     return(
         <nav className={styles.navMain}>
-            <img src="{logo}" alt="Logo" />
+            <img src="{loguito}" alt="logo" />
             <ul className={styles.navList}>
-                <NavLink title="Productos" />
-                <NavLink title="Servicios" />
-                <NavLink title="Contacto" />
-                <NavLinkChild>
-                    <p>Login</p>
-                </NavLinkChild>
+                <a className="buttom-primary" title="Productos" />
+                <a className="buttom-primary" title="Servicios" />
+                <a className="buttom-primary" title="Contacto" />
             </ul>
         </nav>
     );
