@@ -7,12 +7,12 @@ import styles from "./NavBar.css";
 
 export default function NavBar(){
     return(
-        <nav className={styles.navMain}>
-            <img src="{ loguito }" alt="logo" />
-            <ul className={styles.navList}>
-                <a className="buttom-primary" title="Productos" />
-                <a className="buttom-primary" title="Servicios" />
-                <a className="buttom-primary" title="Contacto" />
+        <nav className="navMain">
+            <img src="../assets/loguito.jpg" alt="logo" />
+            <ul className="navList">
+                <a className="buttom-primary"><li className="title">Productos</li></a>
+                <a className="buttom-primary"><li className="title">Servicios</li></a>
+                <a className="buttom-primary"><li className="title">Contacto</li></a> 
             </ul>
         </nav>
     );

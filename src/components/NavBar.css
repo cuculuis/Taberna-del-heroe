@@ -1,16 +1,19 @@
 .navMain {
-    color: rgb(236, 134, 163);
-    font-size: 20px;    
+    background-color: rgb(236, 134, 163);
+    font-size: 20px;
 }
 
 .navList{
     list-style: none;
+    text-decoration: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .title {
     color: rgb(14, 148, 110);
-    font-size: 98px;
+    font-size: 24px;
     text-align: center;
+    text-decoration: none;
 }
