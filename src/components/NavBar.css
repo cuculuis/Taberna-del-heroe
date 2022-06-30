@@ -1,13 +1,13 @@
 .navMain {
     background-color: rgb(236, 134, 163);
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .navList{
     list-style: none;
     text-decoration: none;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -16,4 +16,8 @@
     font-size: 24px;
     text-align: center;
     text-decoration: none;
+}
+
+.img-Nav {
+    width: 10%;
 }
